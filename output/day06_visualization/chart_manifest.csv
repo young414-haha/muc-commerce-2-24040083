@@ -1,0 +1,6 @@
+﻿chart_id,file_name,business_question,chart_type,key_finding,limitation
+01,01_category_bar.png,不同商品类别的用户数量和流失率有何差异？,bar,手机类用户最多（2080人）但流失率最高（27.4%），杂货类流失率最低（4.9%）,仅显示相关关系，流失率差异受价格、复购率等因素影响
+02,02_behavior_scatter.png,订单数量与返现金额是否相关？不同商品类别有何差异？,scatter,订单量与返现金额正相关；Grocery/Others用户订单和返现更高,相关不等于因果，可能受消费能力影响
+03,03_ordered_line.png,不同城市等级用户的流失率如何变化？,line,流失率随城市等级升高而上升：一线14.4%→三线24.6%,城市等级比较，非时间序列，不能推断因果关系
+04,04_composition_chart.png,各商品类别的用户占比是多少？,pie_or_bar,手机类（37%）和电脑类（36.4%）占用户总量约73%,饼图只展示构成，不适合类别间流失率比较
+05,day06_visualization_summary.png,整体概览,dashboard,手机类用户占比大、流失率高；杂货类用户少、流失低；城市等级越高流失越高,概览性图表，详细分析需参考各独立图表
